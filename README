@@ -1,0 +1,13 @@
+INSTRUCTIONS
+
+1. Change the file location of the ClientKeyStore.jks and ServerKeyStore.jks in each file to your PC location
+2. Right-click SocketServer.java and hover over show in local terminal and select terminal
+3. To run server type javac SocketServer.java and then type java SocketServer.java
+4. It should now be connected
+5. Right-click ClientSocket.java and hover over show in local terminal and select terminal
+6. To run a client type javac ClientSocket.java and then type java ClientSocket.java
+7. A prompt should appear for a password which is 'pass123' and you can select any username
+8. Now you can right-click the ClientSocket.java and show in local terminal again 2 more times so you have 3 clients and type java ClientSocket.java
+9. Then you want to re-enter the password for these 2 new clients which is 'pass123' and select usernames for them
+10. Now you can start messaging and the messages will display in each client window along with the name of who sent each message
+11. When you have finished your conversation you can then type 'exit' in each client terminal to disconnect and it will show a client has disconnected in the server terminal
